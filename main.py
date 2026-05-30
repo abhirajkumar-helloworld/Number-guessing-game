@@ -20,7 +20,7 @@ while True:
         print ("mode hard")
     else:
         print ("invalid option")
-        exit()
+        continue 
     sec = random.randint( 1, n )
     attempts = 0
     while True:
